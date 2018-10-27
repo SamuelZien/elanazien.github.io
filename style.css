@@ -38,7 +38,7 @@ p {
   position: fixed;
   top: 0px;
   left: 1px;
-  background-color: #888855;
+  background-color: #557769;
   border: 3px outset #CCCCCC;
   padding: 2px
 }
@@ -55,7 +55,7 @@ p {
   position: absolute;
 }
 .boxed {
-  border: 6px ridge #888855 ;
+  border: 6px ridge #557769 ;
   padding-left: 5px
 }
 
