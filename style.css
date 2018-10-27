@@ -1,0 +1,75 @@
+/*PLEASE TAKE NOTES FROM NOW ON, SAM*/
+html, body {
+  margin: 0;
+  padding: 2;
+}
+body {
+  background-image: url("./background.jpg");
+  background-size: 1920px 1080px
+}
+
+@font-face {
+font-family: 'Ubuntu', sans-serif;
+src:
+url("./Ubuntu-Regular.ttf");
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #DCDCDC;
+}
+h1 {
+  color: #fff;
+}
+a {
+font-family: 'Roboto', sans-serif;
+color:  #111;
+}
+.orange {
+    color:  #FFA500;
+}
+.white {
+  color: #fff
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #DCDCDC
+}
+.NavSidebar {
+  position: fixed;
+  top: 0px;
+  left: 1px;
+  background-color: #888855;
+  border: 3px outset #CCCCCC;
+  padding: 2px
+}
+.big {
+  font-size: large;
+}
+.absolute {
+  position: absolute;
+}
+.boxed {
+  border: 6px ridge #888855 ;
+  padding-left: 5px
+}
+
+/*.btn controls button styles*/
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FFA500;
+  padding: 7px 15px 7px 15px;
+  border: solid #adadad 1px;
+}
+.btn:hover {
+  background: #e6762b;
+}
+#mainNavCubes {
+  position: absolute;
+  left: 50%;
+  top: 170px;
+  margin-left: -240px;
+}
