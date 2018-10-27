@@ -8,11 +8,6 @@ body {
   background-size: 1920px 1080px
 }
 
-@font-face {
-font-family: 'Ubuntu', sans-serif;
-src:
-url("./Ubuntu-Regular.ttf");
-}
 h2 {
   font-family: 'Roboto', sans-serif;
   color: #DCDCDC;
