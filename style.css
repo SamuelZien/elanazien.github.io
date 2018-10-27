@@ -27,6 +27,9 @@ color:  #111;
 .white {
   color: #fff
 }
+.subtext {
+  color: #999999
+}
 p {
   font-family: 'Ubuntu', sans-serif;
   color: #DCDCDC
@@ -38,6 +41,12 @@ p {
   background-color: #888855;
   border: 3px outset #CCCCCC;
   padding: 2px
+}
+.SubSidebar {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px
 }
 .big {
   font-size: large;
