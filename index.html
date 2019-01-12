@@ -30,7 +30,6 @@
     <h2 class="white">Pages</h2>
         <a class="big" href="./index.html">Home</a>
         <a class="big" href="./photos.html">My Photos</a>
-        <a class="big" href="./contact.html">Contact Me</a>
   </nav>
 </aside>
 
@@ -44,7 +43,11 @@
     <h1 class="lobster">Introduction</h1>
 <p>This is a website for my photos.</p>
 </div>
-
+<br/>
+<button class="collapsible">Contact me</button>
+<div class="content" style="font-size:14px;">
+  <p>[input contact information, Elana]</p>
+</div>
   </body>
   <!--this is the bottom bar-->
   <aside class="SubSidebar">
@@ -53,4 +56,42 @@
   <div class="w3-bar-item w3-hover-red subtext">Website created by Samuel Zien</div>
   </div>
   </aside>
+  <!--Defines box opening and closing-->
+  <script>var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }var modal = document.getElementById('myModal');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+  </script>
 </html>
