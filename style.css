@@ -28,7 +28,7 @@ div {
   float:bottom;
 }
 .active, .collapsible:hover {
-  background-color: #446666;
+  background-color: #466;
 }
 .content {
   width:100%;
