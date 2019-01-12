@@ -103,7 +103,8 @@ p {
   padding-left: 5px
 }
 
-/*.btn controls button styles*/
+/*.btn controls button styles, currently not activated due to conflict with collapsibles*/
+/*
 .btn {
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
@@ -123,3 +124,4 @@ p {
   top: 170px;
   margin-left: -240px;
 }
+*/
