@@ -5,6 +5,7 @@ html, body {
 }
 body {
   background-image: url("./background.jpg");
+  background-size: 1920px 1080px
 }
 div {
   width:98%;
