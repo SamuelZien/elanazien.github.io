@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-image: linear-gradient(to right, #240000 92%, #baa);
   background-size: 100% 100%;
-  left-margin: 4px;
+  margin-left: 4px;
   width: 100%;
   height: 100%;
 }
@@ -141,7 +141,6 @@ input[type=checkbox] {
   display: inline-block;
   color: #f2c2c2;
   text-decoration: none;
-  font-size:
 }
 .popup a {
 color: white;
