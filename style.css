@@ -10,8 +10,8 @@ head {
 border-bottom: 2px solid red;
 }
 .imgbanner {
-margin:0px;
-width:100%;
+margin:0;
+width:101%;
 }
 marquee {
 	font-size: 20px;
@@ -35,9 +35,6 @@ subtitle {
  color: #eee
 }
 .advert{
-border: 2px solid red;
-box-shadow: 4px 3px;
-color:#fff;
 max-width:33%;
 margin-left: 5px;
 }
