@@ -10,10 +10,6 @@ body {
 margin:0;
 max-width:100%;
 }
-marquee {
-	font-size: 20px;
-	color: #fff;
-}
 h1 {
 font-family: 'Ubuntu Mono', sans-serif;
   color: #fff;
