@@ -11,8 +11,8 @@ head{
   position:fixed;
 }
 .imgbanner {
-margin-left:0;
-max-width:100%;
+margin:0;
+width:100%;
 }
 h1 {
 font-family: 'Ubuntu Mono', sans-serif;
@@ -104,10 +104,10 @@ input[type=checkbox] {
     right: 26px;
     font-family: sans-serif;
 }
-.active, .button:hover {
+.active, .button:hover, .button:focus {
   background-color: #580000;
 }
-.navbar a:hover {
+.navbar a:hover, .navbar a:focus {
   background-color: #B00;
 }
 /* Place the navbar at the bottom of the page, and make it stick */
