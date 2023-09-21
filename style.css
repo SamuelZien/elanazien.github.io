@@ -3,7 +3,7 @@ body {
   background-color: black;
   margin-left: 4px;
 }
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
 font-family: 'Ubuntu Mono', sans-serif;
   color: #fff;
 margin-left: 0.4%;
