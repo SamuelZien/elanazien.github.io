@@ -14,10 +14,9 @@ head{
 margin:0;
 width:100%;
 }
-h1 {
+h1, h2 {
 font-family: 'Ubuntu Mono', sans-serif;
   color: #fff;
-font-size: 45px;
 margin-left: 0.4%;
 }
 p {
