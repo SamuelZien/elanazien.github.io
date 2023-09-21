@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: linear-gradient(to right, #240000 92%, #baa);
+  background-image: linear-gradient(to right, #000000 92%, rgb(133, 239, 255));
   background-size: 100% 100%;
   margin-left: 4px;
   width: 99%;
@@ -49,8 +49,8 @@ display: inline-block;
     font-family: 'Ubuntu Mono';
     font-size: 25px;
     display: inline-block;
-    border: 2px solid red;
-    background:  #100040;
+    border: 2px solid rgb(0, 255, 21);
+    background:  #090024;
     padding: 10px 18px;
     margin: 0.5%;
     width:45%;
@@ -105,10 +105,10 @@ input[type=checkbox] {
     font-family: sans-serif;
 }
 .active, .button:hover, .button:focus {
-  background-color: #580000;
+  background-color: #005828;
 }
 .navbar a:hover, .navbar a:focus {
-  background-color: #B00;
+  background-color: rgb(0, 187, 0);
 }
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
