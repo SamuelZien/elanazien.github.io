@@ -12,20 +12,16 @@ subtitle {
  font-size: 15px;
  font-family: 'Ubuntu Mono';
  color: #b1b1b1;
+ padding: 4px;
 }
 .advert{
 max-width:35%;
 margin: 0.8rem;
-display: inline-block;
 }
 .box {
   border: 1px solid white;
   background-color: #B00;
   padding: 3px;
-}
-.topleft {
-  left:0%;
-  top: 0%;
 }
 .button {
     font-family: 'Ubuntu Mono';
@@ -40,11 +36,12 @@ display: inline-block;
     align-items: center;
 }
 .contentbar {
-  max-height: 40%;
+  max-height: 25%;
   padding-bottom: 1rem;
   display: flex;
   flex-flow: row-reverse wrap-reverse;
   justify-content: left;
+  flex-shrink: 0;
 }
 [id^=modal] {
     display: none;
@@ -93,10 +90,10 @@ input[type=checkbox] {
     right: 26px;
     font-family: sans-serif;
 }
-.active, .button:hover, .button:focus {
-  background-color: #005828;
+.button:hover, .button:focus, .navbar a:hover, .navbar a:focus {
+  background-color: #007f13;
 }
-.navbar a:hover, .navbar a:focus {
+.current-link {
   background-color: rgb(0, 187, 0);
 }
 /* Place the navbar at the top of the page, and make it stick */
@@ -140,5 +137,15 @@ font-size: 24px;
   }
   .contentbar{
     flex-flow:row-reverse wrap;
+      max-width: 90%;
+      padding-bottom: 1rem;
+      display: flex;
+      flex-flow: column-reverse wrap;
+      align-content: center;
+      flex-shrink: 1;
   }
+  .advert{
+    max-width:85%;
+    margin: 0.5rem;
+    }
 }
