@@ -1,0 +1,33 @@
+body{
+    margin:0.5rem;
+    background-color: antiquewhite;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Ubuntu Mono', sans-serif;
+      color: #000;
+    margin-left: 0.4%;
+    }
+.navbar {
+    background-image: linear-gradient(180deg, #300002 0.001%, #480101);
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  .navbar a {
+    font-family: 'Ubuntu Mono';
+    color: #f2f2f2;
+    padding: 0.6%;
+    text-decoration: none;
+    font-size: 2rem;
+    border-right: 2px solid #fff;
+    display: inline;
+  }
+  .current-link {
+    background-color: rgb(203, 104, 191);
+  }
+  .navbar a:hover, .navbar a:focus {
+    background-color: rgb(245, 130, 195);
+  }
