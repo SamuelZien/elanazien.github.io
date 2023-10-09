@@ -74,6 +74,7 @@ margin: 0.8rem;
     z-index: 9;
     width: 80%;
     max-width: 1200px;
+    max-height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -136,8 +137,17 @@ color: white;
 text-decoration: none;
 font-size: 24px;
 }
-@media (max-width: 950px) {
-  subtitle{
+.popup__wrapper>p>a{
+  text-decoration: underline;
+  color:#00c61e;
+}
+div>object{
+  width: 100%;
+  min-height: 500px;
+  max-height: 600px;
+}
+@media (max-width: 1000px) {
+  .button>subtitle{
     display:none;
   }
   .button{
@@ -156,5 +166,8 @@ font-size: 24px;
   .advert{
     max-width:85%;
     margin: 0.5rem;
+    }
+    div>object{
+      display:none;
     }
 }
