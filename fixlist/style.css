@@ -146,9 +146,6 @@ div>object{
   min-height: 500px;
   max-height: 600px;
 }
-#modal9, #modal8, #modal7{
-  display:none;
-}
 @media (max-width: 1000px) {
   .button>subtitle{
     display:none;
