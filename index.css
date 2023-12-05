@@ -6,6 +6,7 @@ body{
   margin:0rem;
   background-color:#f2f2f2;
   min-height: 100%;
+  overflow: hidden;
 }
 p, li{
   font-size:medium;
@@ -68,7 +69,7 @@ color:#3b3b3b;
       animation: fadearticle 0.7s ease-in-out 0.25s 1 forwards;
   }
   footer{
-    position:fixed;
+    position:absolute;
     bottom:0;
     width:100%;
     height:2.5rem;
@@ -89,6 +90,9 @@ color:#3b3b3b;
     }
   }
   @media (max-width: 1000px) {
+    body{
+      overflow:scroll;
+    }
     button{
       max-width: 48%;
     }
@@ -118,5 +122,9 @@ color:#3b3b3b;
           left:0%;
           color:#000;
         }
+      }
+      footer{
+        position:fixed;
+        bottom:0;
       }
   }
