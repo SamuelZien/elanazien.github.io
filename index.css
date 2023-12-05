@@ -9,6 +9,9 @@ body{
 p, li{
   font-size:medium;
 }
+hr{
+  border:2px solid #3b0000;
+}
 h1, h2, h3, h4, h5, h6, p, li {
     font-family: 'Ubuntu Mono', sans-serif;
       color: #000;
