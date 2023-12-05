@@ -36,6 +36,17 @@ margin: 0.8rem;
     color: #ffffff;
     align-items: center;
 }
+.button{
+  animation: load 0.1s ease-in 0s 1;
+}
+@keyframes load {
+  from{
+    transform: scale(0.98);
+  }
+  to{
+    transform: scale(1);
+  }
+}
 .contentbar {
   max-height: 25%;
   padding-bottom: 1rem;
