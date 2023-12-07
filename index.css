@@ -1,12 +1,14 @@
 main{
     margin:1rem;
     min-height:100vh;
+    z-index: 1;
 }
 body{
   margin:0rem;
   background-color:#f2f2f2;
   min-height: 100%;
   overflow: hidden;
+  z-index: 0;
 }
 p, li{
   font-size:medium;
@@ -18,6 +20,7 @@ h1, h2, h3, h4, h5, h6, p, li {
     font-family: 'Ubuntu Mono', sans-serif;
       color: #000;
     margin-left: 0.4%;
+    z-index: 2;
     }
   #about h3, #about h2{
 display:inline;
@@ -35,7 +38,7 @@ color:#3b3b3b;
     width: 100%;
     z-index: 3;
   }
-  .navbar a {
+  .navbar a{
     font-family: 'Ubuntu Mono';
     color: #f2f2f2;
     padding: 0.6%;
@@ -89,6 +92,18 @@ color:#3b3b3b;
       color:#000;
     }
   }
+  /*.javascript::after{
+    content:url(./images/JavaScript_Logo.png);
+    display: inline-block;
+    width:16px;
+    height:16px;
+  }
+  #html::after{
+    content:url(./images/HTML5_badge.png);
+  }
+  #css3::after{
+    content:url(./images/logo-css-3.png);
+  } */
   @media (max-width: 1000px) {
     body{
       overflow:scroll;
@@ -127,4 +142,27 @@ color:#3b3b3b;
         position:fixed;
         bottom:0;
       }
+  }
+  @media (min-width: 1000px){
+    /*span[data-descr] {
+      position: relative;
+      cursor: help;
+    }
+    
+    span[data-descr]:hover::after,
+    span[data-descr]:focus::after {
+      content: attr(data-descr);
+      position:fixed;
+      left: 10px;
+      top: 2rem;
+      min-width: 150px;
+      border: 1px #aaaaaa solid;
+      border-radius: 5px;
+      background-color:#3b0000;
+      padding: 8px;
+      color: #f2f2f2;
+      font-size: 14px;
+      z-index: 6;
+    }*/
+    
   }
