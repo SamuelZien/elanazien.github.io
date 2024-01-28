@@ -1,4 +1,7 @@
+
+//each job entry is populated using an array of Objects containing the entry's info. 
 class Job{
+    //constructor 
     constructor(title, subtitle, body){
     this.title = title;
     this.subtitle = subtitle;
