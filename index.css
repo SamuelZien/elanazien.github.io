@@ -51,7 +51,7 @@ color:#3b3b3b;
     top: 0%;
     left: 0%;
     margin-bottom: 0.5rem;
-    width: 100%;
+    width: 100vw;
     z-index: 3;
   }
   .navbar a{
@@ -91,7 +91,7 @@ color:#3b3b3b;
   footer{
     position:absolute;
     bottom:0;
-    width:100%;
+    width:100vw;
     height:2.5rem;
     background-image: linear-gradient(180deg, #120001 0.001%, #3b0000);
     z-index: 3;
