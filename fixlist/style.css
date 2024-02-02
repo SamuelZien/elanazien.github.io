@@ -107,7 +107,7 @@ margin: 0.8rem;
 }
 /* Place the navbar at the top of the page, and make it stick */
 .navbar {
-  background-image: linear-gradient(180deg, #100030 0.001%, #100040);
+  background-color: #100040;
   overflow: hidden;
   position: fixed;
   top: 0%;

@@ -45,7 +45,8 @@ display:inline;
 color:#3b3b3b;
   }
 .navbar {
-    background-image: linear-gradient(180deg, #120001 0.001%, #3b0000);
+    /*background-image: linear-gradient(180deg, #120001 0.001%, #3b0000);*/
+    background-color: #3b0000;
     overflow: hidden;
     position: fixed;
     top: 0%;
@@ -93,7 +94,7 @@ color:#3b3b3b;
     bottom:0;
     width:100vw;
     height:2.5rem;
-    background-image: linear-gradient(180deg, #120001 0.001%, #3b0000);
+    background-color: #3b0000;
     z-index: 3;
   }
   footer p, footer a{
