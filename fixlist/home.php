@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>FixList</title>
@@ -11,7 +10,7 @@
 	</head>
 	<body>
         <nav class="navbar">
-            <a class="current-link" href="./home.html">Home</a>
+            <a class="current-link" href="#">Home</a>
             <a href="./markets.html">Sales</a>
             <a href="./about.html">About</a>
             <h1><strong>FixList</strong></h1> 
@@ -121,3 +120,7 @@
 </section>
 	</body>
 </html>
+
+<?php
+
+?>
