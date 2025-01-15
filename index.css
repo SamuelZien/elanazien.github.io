@@ -1,14 +1,14 @@
 main{
-    margin:1rem;
-    min-height:100vh;
+    margin:0.5rem;
     z-index: 1;
 }
 body{
   margin:0rem;
   background-color:#f2f2f2;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-y: scroll;
   z-index: 0;
+  top:0vh;
 }
 p, li{
   font-size:medium;
@@ -46,29 +46,27 @@ color:#3b3b3b;
   }
 .navbar {
     /*background-image: linear-gradient(180deg, #120001 0.001%, #3b0000);*/
-    background-color: #3b0000;
+    /*background-color: #3b0000;*/
     overflow: hidden;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    margin-bottom: 0.5rem;
     width: 100vw;
-    z-index: 3;
+    margin-bottom: 0.5rem;
+    z-index: 99;
   }
   .navbar a{
     font-family: 'Ubuntu Mono', sans-serif;
-    color: #f2f2f2;
+    color: #3b0000;
     padding: 0.6%;
     text-decoration: none;
     font-size: 2rem;
-    border-right: 2px solid #fff;
+    /*border-right: 2px solid #fff; */
     display: inline;
   }
-  .current-link {
+ /* .current-link {
     background-color: rgb(87, 5, 72);
-  }
+  } */
   .navbar a:hover, .navbar a:focus {
-    background-color: rgb(141, 0, 80);
+    color: rgb(141, 0, 80);
+   transition: 100ms;
   }
   .contentbar{
     flex-flow:row wrap;
@@ -89,14 +87,14 @@ color:#3b3b3b;
     left:-2%;
       animation: fadearticle 0.7s ease-in-out 0.25s 1 forwards;
   }
-  footer{
+  /*footer{
     position:absolute;
     bottom:0;
     width:100vw;
     height:2.5rem;
     background-color: #3b0000;
     z-index: 3;
-  }
+  }*/
   footer p, footer a{
     color:#fff;
   }
@@ -109,6 +107,9 @@ color:#3b3b3b;
     }
   }
   @media (max-width: 1000px) {
+    .navbar{
+      margin: 1rem;
+    }
     body{
       overflow:scroll;
     }
@@ -138,10 +139,10 @@ color:#3b3b3b;
           color:#000;
         }
       }
-      footer{
+      /*footer{
         position:fixed;
         bottom:0;
-      }
+      }*/
   }
   @media (min-width: 1000px){
     /*span[data-descr] {
@@ -164,5 +165,8 @@ color:#3b3b3b;
       font-size: 14px;
       z-index: 6;
     }*/
-    
+    .navbar{
+      text-align: center;
+      margin-top: 0.5rem;
+    }
   }
